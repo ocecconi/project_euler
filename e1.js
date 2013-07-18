@@ -11,12 +11,12 @@ sum = 0;
 var mult = function(max) {
 	for (i = 1; i < below; i++){
 		if (i%3 == 0)
-			{sum = sum + i;
+			{sum += i;
 			}
 		else if (i%5 == 0)
-			{sum = sum + i;
+			{sum += i;
 			}
-		else {sum = sum;
+		else {sum += 0;
 		}
 	}
 }
