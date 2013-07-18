@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // brute force approach:
 // check every number if divisible by 3 or 5
 // if it is, add the number to the rallying sum
